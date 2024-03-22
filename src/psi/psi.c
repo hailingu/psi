@@ -140,7 +140,6 @@ int random_seed_ch(char* seed) {
   return length;
 } // random_seed_ch
 
-
 uint64_t master_key_gen_ul(uint64_t random, char* master_key) {
   if (!master_key) {
     return nullptr;
